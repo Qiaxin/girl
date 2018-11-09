@@ -1,0 +1,13 @@
+spring:
+    profiles:
+      active: product
+
+datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chatrobot
+    username: root
+    password: password
+jpa:
+    hibernate:
+        ddl-auto:  create
+    show-sql: true
