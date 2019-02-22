@@ -21,6 +21,6 @@ public class HelloController {
     @GetMapping(value = {"/hello","hi"})
     public String say() {
 
-        return "hello world "+girlProperties.getCupSize();
+        return "hello world 123"+girlProperties.getCupSize();
     }
 }
